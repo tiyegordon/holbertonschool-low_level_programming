@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE cat $CFILE
+gcc -S main.c > main.o
