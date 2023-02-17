@@ -1,4 +1,4 @@
-#index <studio.h>
+#include <stdio.h>
 
 /**
  * *main Entry point
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	print 9"with proper grammar, but the outcocme is a piece of art, \n");
+	print ("with proper grammar, but the outcocme is a piece of art, \n");
 	return (0);
 }
 
