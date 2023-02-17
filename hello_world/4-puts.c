@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	print ("with proper grammar, but the outcocme is a piece of art, \n");
+	printf ("Programming is like building a multilingual puzzle, \n");
 	return (0);
 }
-
