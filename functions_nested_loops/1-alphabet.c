@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * main - prints a message following a new line.
@@ -11,13 +12,13 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void print_alphabet(void)
+
+void print_alphabet(void) /**alphabet function, prints lowercase*/
 {
 char letter;
-for (letter = 'a'; letter <= 'z'; letter++);
+for (letter = 'a'; letter <= 'z'; letter++)
+{
 _putchar(letter);
-_putchar ('\n');
-
-return;
-
+}
+putchar ('\n');
 }
