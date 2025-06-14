@@ -6,13 +6,14 @@
 int main(void)
 {
 int n;
-for (n = 0; numbers <= 9; n++)
-}
+for (n = 0; n <= 9; n++)
+{
 putchar(n + '0'); /**change to a number*/
 if (n != 9) /** n is not the last number*/
 {
 putchar(','); /** print the comma*/
 putchar(' '); /** print the space*/
+}
 }
 putchar('\n');
 return (0);
