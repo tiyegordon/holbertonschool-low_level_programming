@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-  * Prints the last digit of a number.
+  * jack_bauer - Prints every minute of the day of Jack Bauer.
   *
-  * Returns the value of the last digit.
+  * Description: Prints time from 00:00 to 23:59 in HH:MM format.
   */
 void jack_bauer(void)
 
