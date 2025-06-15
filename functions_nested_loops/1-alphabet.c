@@ -3,17 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - prints a message following a new line.
- * Return: always 0
- *
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+* print_alphabet - Prints the lowercase alpahabet followed by a newline.
+*
+* Description: Uses _putchar to print each letter from 'a' to 'z'
+*
+*/
 
-void print_alphabet(void) /**alphabet function, prints lowercase*/
+void print_alphabet(void)
 {
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
