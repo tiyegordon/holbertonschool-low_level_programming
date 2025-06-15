@@ -3,21 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - prints a message following a new line.
- * Return: always 0
+ * _isalpha - Checks if a character is alphabetic
+ * @c: The character to check (ASCII code)
  *
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 1 if c is a letter (a-z or A-z), 0 otherwise
  */
-
-/**
- *_isalpha- Shows 1 if alphabetic character.
- *Another cases, shows 0.
- *@c: The character is ASCII code1 for lowercase character.
- * Return: 1 for lowercase character. 0 for the rest.
- */
-
 
 int _isalpha(int c)
 {
