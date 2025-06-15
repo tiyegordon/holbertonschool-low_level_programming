@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
-  * Prints the 9 times table, starting with 0.
+  * times_table - Pints the 9 times table, starting with 0.
   *
-  * Return: Always 0
+  * Description: Prints multiplication table from 0 x 0 to 0x 0.
+  * Format matches expected spacing for single - and double-digit numbers,
   */
 
 void times_table(void)
