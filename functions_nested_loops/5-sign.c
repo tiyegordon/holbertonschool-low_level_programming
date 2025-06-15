@@ -4,8 +4,10 @@
 
 /**
   * print_sign - Prints the sign of a number
-  * 
-  * Return: 1 for positive num, -1 for negative num or zero 
+  * @n : The number to check
+  *
+  * Return: 1 if postive, 0 if zero, -1 for negative num
+  *
   */
 
 int print_sign(int n)
