@@ -5,7 +5,6 @@
 /**
   * Prints all natural numbers from n to 98, followed by a new line.
   *@n:The starting integer
-  *
   * Description: If n> 98, counts down. If n< 98, counts up. If n == 98, prints.
   * Returns integer
   */

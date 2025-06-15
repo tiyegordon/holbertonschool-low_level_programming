@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
-  * Adds two integers.
+  * add - Adds two integers.
+  * @num1: The first integer
+  * @num2: The second integer
   *
-  * Returns the summation value of 2 integers.
+  * Return: Sum of num1 and num2
   */
 
 int add(int num1, int num2)
