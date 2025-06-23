@@ -5,7 +5,7 @@
 *
 * @c: The character to check (ASCII code)
 *
-* Returns: 1 if c is uppercase; Returns 0 otherwise/
+* Return: 1 if c is uppercase; Returns 0 otherwise/
 *
 */
 
