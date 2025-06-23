@@ -5,7 +5,7 @@
 /**
  * print_alphabet_x10 - Prints a message following a new line.
  *
- * Description: Uses _putchar to print the alphabet 10 times, each followed by a newline
+ * Return: Nothing (void)
  */
 
 void print_alphabet_x10(void)
